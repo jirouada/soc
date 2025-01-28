@@ -57,4 +57,4 @@ def register():
         conn.close()
         return redirect(url_for('auth.login'))  # Po registraci se vrací na login stránku
 
-    return render_template('register.html')
+    return render_template('register.html', )
